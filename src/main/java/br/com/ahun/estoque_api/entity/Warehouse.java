@@ -2,6 +2,7 @@ package br.com.ahun.estoque_api.entity;
 
 import java.util.List;
 
+import br.com.ahun.estoque_api.models.WareshouseTypeEnum;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -9,7 +10,6 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
-import models.WareshouseTypeEnum;
 
 @Entity
 @Table(name = "tb_warehouses")

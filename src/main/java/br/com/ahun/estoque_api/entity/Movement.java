@@ -2,6 +2,7 @@ package br.com.ahun.estoque_api.entity;
 
 import java.security.Timestamp;
 
+import br.com.ahun.estoque_api.models.MovementReason;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
@@ -14,7 +15,6 @@ import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 import jakarta.persistence.Temporal;
 import jakarta.persistence.TemporalType;
-import models.MovementReason;
 
 @Entity
 @Table(name = "tb_movements")
